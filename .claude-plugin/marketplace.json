@@ -1,0 +1,17 @@
+{
+  "name": "kueilanverse",
+  "description": "奎嵐 @kueilanverse 的 Claude Code plugin：自媒體 AI 員工。",
+  "owner": {
+    "name": "奎嵐 KueiLan",
+    "url": "https://kueilan.com"
+  },
+  "plugins": [
+    {
+      "name": "ai-staff",
+      "source": "./",
+      "description": "把 Claude 變成你的自媒體 AI 員工：13 個繁體中文指令，從品牌設定、輪播成圖到排程與留言送禮。",
+      "category": "productivity",
+      "tags": ["social-media", "instagram", "threads", "繁體中文"]
+    }
+  ]
+}
