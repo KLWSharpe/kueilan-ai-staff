@@ -1,0 +1,12 @@
+{
+  "name": "kueilanverse",
+  "interface": { "displayName": "奎嵐 kueilanverse" },
+  "plugins": [
+    {
+      "name": "ai-staff",
+      "source": { "source": "local", "path": "./" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}

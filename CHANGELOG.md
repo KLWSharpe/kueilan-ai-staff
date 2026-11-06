@@ -1,5 +1,9 @@
 # 自媒體 AI 員工 變更紀錄
 
+## 0.2.0（2026-11-06）
+
+主打 Codex（ChatGPT 帳號）。README 以「給 Codex 的安裝步驟」為主要裝法並放最前面，Claude Code 裝法移到後面；加入 OpenAI 官方格式的 `.agents/plugins/marketplace.json` 與 `.codex-plugin/plugin.json`；plugin 描述、指令清單與 my-brand 改成 `$指令名` 寫法並括號註明 Claude 寫法。功能與 13 個 skill 不變。
+
 ## 0.1.2（2026-11-06）
 
 正文頁與清單頁內容較短時，往下移多一點，整張不再上重下輕。

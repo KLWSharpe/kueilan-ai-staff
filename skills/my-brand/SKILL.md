@@ -14,7 +14,7 @@ argument-hint: "[貼上你寫過的文章、常用顏色、商品連結，或說
 
 依 `${CLAUDE_PLUGIN_ROOT}/references/brand.md` 找設定檔。
 
-- 第一次（兩個位置都沒有）：先用三句話說明這個指令會做什麼、會存到哪裡（`~/.claude/ai-staff/brand.md`），再列 `${CLAUDE_PLUGIN_ROOT}/references/commands.md` 的 13 個指令表，讓使用者知道裝好的東西有哪些。然後開始收集資料。
+- 第一次（兩個位置都沒有）：先用三句話說明這個指令會做什麼、會存到哪裡（`~/.claude/ai-staff/brand.md`），再列 `${CLAUDE_PLUGIN_ROOT}/references/commands.md` 的 13 個指令表，讓使用者知道裝好的東西有哪些。指令寫法依使用者所在的環境：Codex 用 `$my-brand` 這種寫法，Claude Code 用 `/ai-staff:my-brand`；列表時用當下環境的寫法，另一種放括號。然後開始收集資料。
 - 已有設定：整份讀出來，用白話摘要目前的設定（帳號、定位、口吻三個形容詞、主色、預設 CTA），問使用者要改哪一項，只改那一項，其他原樣保留。
 
 ## 第二步：收集資料，一次問完
@@ -56,6 +56,6 @@ argument-hint: "[貼上你寫過的文章、常用顏色、商品連結，或說
 1. 設定檔路徑。
 2. 一段摘要：定位一句話、口吻三個形容詞、主色、預設 CTA、時區。
 3. 標「不確定」或「待校準」的欄位列出來，請他有空補。
-4. 下一步建議：先用 `/ai-staff:make-carousel` 做一篇試試，看口吻像不像；不像就回來說「改品牌設定：……」。
+4. 下一步建議：先用 `$make-carousel`（Claude Code 是 `/ai-staff:make-carousel`）做一篇試試，看口吻像不像；不像就回來說「改品牌設定：……」。
 
 不做的事：不替使用者登入任何帳號、不讀他沒給的檔案或資料夾、不把設定檔內容當成之後發布或排程的授權。
