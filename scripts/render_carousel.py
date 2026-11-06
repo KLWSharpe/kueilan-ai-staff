@@ -276,7 +276,7 @@ def render_page(page, idx, total, spec, fonts, warn):
             if not ok:
                 warn.append(f"第 {idx} 頁正文太多，已縮到最小字級仍超出，請拆頁或刪減。")
             used = len(lines_b) * s_b * 1.6
-            y += int(max(0, min((avail_h - used) * 0.18, 140 * scale)))
+            y += int(max(0, min((avail_h - used) * 0.32, 260 * scale)))
             y = draw_lines(d, M, y, lines_b, f_b, s_b, text, 1.6)
         else:
             items = page.get("items", [])
@@ -294,7 +294,7 @@ def render_page(page, idx, total, spec, fonts, warn):
                 size -= 2
             if total_h > avail_h:
                 warn.append(f"第 {idx} 頁清單太多，請拆頁或刪減。")
-            y += int(max(0, min((avail_h - total_h) * 0.18, 140 * scale)))
+            y += int(max(0, min((avail_h - total_h) * 0.32, 260 * scale)))
             for n, ls in enumerate(prepared, 1):
                 r = int(24 * scale)
                 cy = y + size * 0.8
