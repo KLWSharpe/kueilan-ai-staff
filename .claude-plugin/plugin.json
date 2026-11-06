@@ -1,0 +1,13 @@
+{
+  "name": "ai-staff",
+  "displayName": "自媒體 AI 員工",
+  "version": "0.1.2",
+  "description": "把 Claude 變成你的自媒體 AI 員工：13 個指令，從品牌設定、選題、口播、輪播成圖、剪片、改寫多平台，到排程與留言送禮。繁體中文，給上班族與自媒體經營者用。",
+  "author": {
+    "name": "奎嵐 KueiLan",
+    "url": "https://kueilan.com"
+  },
+  "homepage": "https://github.com/KLWSharpe/kueilan-ai-staff",
+  "repository": "https://github.com/KLWSharpe/kueilan-ai-staff",
+  "keywords": ["social-media", "instagram", "threads", "carousel", "content", "繁體中文", "自媒體"]
+}
