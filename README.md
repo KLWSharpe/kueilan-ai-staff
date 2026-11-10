@@ -92,4 +92,4 @@ claude plugin install ai-staff@kueilanverse
 
 ## 授權
 
-免費提供給個人與自己的品牌使用。可以修改成自己的版本；不要整包轉售或冒充原作者。
+免費提供給個人與自己的品牌使用。可以修改成自己的版本；不要整包轉售或冒充原作者。完整條款見 [LICENSE](LICENSE)。
